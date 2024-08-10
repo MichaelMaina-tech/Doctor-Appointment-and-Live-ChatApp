@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Doctor Appointment App</string>
+    <string name="avatar_desc">Doctor Avatar</string>
+    <string name="doctor_name">Welcome, Doctor!</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_view_schedule">View Schedule</string>
+    <string name="menu_manage_appointments">Manage Appointments</string>
+    <string name="menu_chat_with_patients">Chat with Patients</string>
+    <string name="avatar_description">Admin Avatar</string>
+</resources>

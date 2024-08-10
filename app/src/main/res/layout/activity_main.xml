@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/doc1"
+    tools:context=".MainActivity"
+    android:padding="24dp">
+
+    <!-- App Name Heading -->
+    <TextView
+        android:id="@+id/textViewAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Doctor Appointment and Live Chat App"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="64dp"
+        android:layout_marginBottom="24dp"
+        android:shadowColor="#000000"
+        android:shadowRadius="1.5"
+        android:shadowDx="1"
+        android:shadowDy="1" />
+
+    <!-- Subheading for Login -->
+    <TextView
+        android:id="@+id/textViewLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textSize="20sp"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="32dp"
+        android:textStyle="bold"
+        android:shadowColor="#000000"
+        android:shadowRadius="1.5"
+        android:shadowDx="1"
+        android:shadowDy="1" />
+
+    <!-- Patient Login Button -->
+    <Button
+        android:id="@+id/buttonPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in as Patient"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp" />
+
+    <!-- Doctor Login Button -->
+    <Button
+        android:id="@+id/buttonDoctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in as Doctor"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp" />
+
+    <!-- Admin Login Button -->
+    <Button
+        android:id="@+id/buttonAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Log in as Admin"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp" />
+
+</LinearLayout>

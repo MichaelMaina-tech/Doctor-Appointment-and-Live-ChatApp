@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Bubble Shape -->
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#0084FF" />
+            <corners android:radius="16dp" />
+            <padding
+                android:left="8dp"
+                android:top="8dp"
+                android:right="16dp"
+                android:bottom="8dp" />
+        </shape>
+    </item>
+
+    <item android:right="0dp">
+        <shape android:shape="rectangle">
+            <solid android:color="#0084FF" />
+            <size android:width="8dp" android:height="8dp" />
+            <rotate android:fromDegrees="45" />
+        </shape>
+    </item>
+
+</layer-list>

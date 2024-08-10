@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:title="Profile"
+        android:icon="@drawable/ic_profile" />
+    <item
+        android:id="@+id/nav_symptom_checker"
+        android:title="Symptom Checker"
+        android:icon="@drawable/ic_symptom_checker" />
+    <item
+        android:id="@+id/nav_book_appointment"
+        android:title="Book Appointment"
+        android:icon="@drawable/ic_book_appointment" />
+    <item
+        android:id="@+id/nav_chat_with_doctor"
+        android:title="Chat with Doctor"
+        android:icon="@drawable/ic_chat_with_doctor" />
+</menu>

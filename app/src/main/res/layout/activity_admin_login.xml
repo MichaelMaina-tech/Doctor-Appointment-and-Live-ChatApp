@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="@android:color/white">
+
+    <!-- Heading for Admin -->
+    <TextView
+        android:id="@+id/textViewAdminHeading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Admin"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:shadowColor="#B0BEC5"
+        android:shadowRadius="2.5"
+        android:shadowDx="2"
+        android:shadowDy="2" />
+
+    <!-- Admin Login Form -->
+    <EditText
+        android:id="@+id/editTextAdminUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:minHeight="48dp"
+        android:backgroundTint="#BDBDBD"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@android:color/black"
+         />
+
+    <EditText
+        android:id="@+id/editTextAdminPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#BDBDBD"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:textColor="@android:color/black"
+        />
+
+    <Button
+        android:id="@+id/buttonAdminLoginSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log in"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#6200EE"
+        android:textColor="@android:color/white"
+        android:elevation="4dp"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp" />
+
+</LinearLayout>

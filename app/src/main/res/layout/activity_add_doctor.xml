@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextDoctorName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Name" />
+
+    <EditText
+        android:id="@+id/editTextDoctorEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextDoctorPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Doctor Phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextDoctorSpecialization"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Specialization"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/editTextDoctorPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/buttonSaveDoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Save Doctor"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>

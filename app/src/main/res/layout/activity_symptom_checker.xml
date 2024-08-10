@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Title TextView -->
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Symptom Checker"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="16dp" />
+
+    <!-- Symptom Input -->
+    <EditText
+        android:id="@+id/editTextSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your symptoms"
+        android:inputType="textMultiLine"
+        android:lines="4"
+        android:padding="10dp"
+        android:background="@drawable/edit_text_background"
+        android:textSize="16sp" />
+
+    <!-- Check Symptoms Button -->
+    <Button
+        android:id="@+id/buttonCheckSymptoms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check Symptoms"
+        android:textSize="18sp"
+        android:layout_marginTop="16dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white" />
+
+    <!-- Result TextView -->
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="18sp"
+        android:layout_marginTop="24dp" />
+
+</LinearLayout>

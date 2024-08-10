@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <!-- Existing fields -->
+    <EditText
+        android:id="@+id/editTextPatientName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Patient Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTextPatientEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPatientName"
+        android:hint="Patient Email"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editTextPatientPhone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPatientEmail"
+        android:hint="Patient Phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editTextPatientAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPatientPhone"
+        android:hint="Patient Address"
+        android:inputType="textPostalAddress" />
+
+    <EditText
+        android:id="@+id/editTextPatientAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPatientAddress"
+        android:hint="Patient Age"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editTextPatientGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPatientAge"
+        android:hint="Patient Gender"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/buttonAddPatient"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPatientGender"
+        android:text="Add Patient" />
+</RelativeLayout>

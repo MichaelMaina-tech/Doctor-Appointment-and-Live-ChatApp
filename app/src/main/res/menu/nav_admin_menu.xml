@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_manage_doctors"
+        android:title="Manage Doctors"
+         />
+
+    <item
+        android:id="@+id/nav_manage_patients"
+        android:title="Manage Patients"
+       />
+
+    <item
+        android:id="@+id/nav_manage_diseases"
+        android:title="Manage Diseases"
+         />
+
+    <item
+        android:id="@+id/nav_feedback"
+        android:title="Feedback"
+        />
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Logout"
+         />
+</menu>

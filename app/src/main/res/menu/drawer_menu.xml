@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_profile"
+        android:icon="@drawable/ic_profile"
+        android:title="@string/menu_profile" />
+    <item
+        android:id="@+id/nav_view_schedule"
+        android:icon="@drawable/ic_schedule"
+        android:title="@string/menu_view_schedule" />
+    <item
+        android:id="@+id/nav_manage_appointments"
+        android:icon="@drawable/ic_appointments"
+        android:title="@string/menu_manage_appointments" />
+    <item
+        android:id="@+id/nav_chat_with_patients"
+        android:icon="@drawable/ic_chat"
+        android:title="@string/menu_chat_with_patients" />
+</menu>
